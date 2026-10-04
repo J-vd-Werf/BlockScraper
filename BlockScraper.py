@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IP block WHOIS collector - simple local web interface (v2, parallel).
+BlockScraper - IP block WHOIS collector, simple local web interface.
 
 Author: Jari van der Werf
 
@@ -1494,16 +1494,16 @@ class H(BaseHTTPRequestHandler):
 
 
 BANNER = r"""
-   __    __           __
-  / /_  / /___  _____/ /__
- / __ \/ / __ \/ ___/ //_/
-/ /_/ / / /_/ / /__/ ,<
-\____/_/\____/\___/_/|_|___  _____
-  / ___/ ___/ __ `/ __ \/ _ \/ ___/
- (__  ) /__/ /_/ / /_/ /  __/ /
-/____/\___/\__,_/ .___/\___/_/
-               /_/
-            by Jari van der Werf
+   ____  __    ____  ________ __
+  / __ )/ /   / __ \/ ____/ //_/
+ / __  / /   / / / / /   / ,<
+/ /_/ / /___/ /_/ / /___/ /| |
+/_____/_____/\____/\____/_/ |_|_  __________
+  / ___// ____/ __ \/   |  / __ \/ ____/ __ \
+  \__ \/ /   / /_/ / /| | / /_/ / __/ / /_/ /
+ ___/ / /___/ _, _/ ___ |/ ____/ /___/ _, _/
+/____/\____/_/ |_/_/  |_/_/   /_____/_/ |_|
+                 by Jari van der Werf
 """
 
 if __name__ == "__main__":
