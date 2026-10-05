@@ -84,7 +84,7 @@ inappropriate or against the terms of the services involved.
 ## Usage
 
 ```bash
-python3 ip_whois_tool.py
+python3 BlockScraper.py
 ```
 
 Then open **http://localhost:8765** in your browser. The tool is a tiny
@@ -227,10 +227,7 @@ other than what's in the downloaded report files themselves.
   authentication — it's meant to run on your own machine, not be
   exposed to a network.
 
-## License
 
-Add whichever license you prefer for your repository (MIT is a common
-default for a tool like this). None is bundled by default.
 
 ## Author
 
